@@ -1,0 +1,22 @@
+{
+  "name": "ita_projects",
+  "version": "1.0.0",
+  "description": "algorytm tasks",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Walleriy/ITA_projects.git"
+  },
+  "author": "Walleriy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Walleriy/ITA_projects/issues"
+  },
+  "homepage": "https://github.com/Walleriy/ITA_projects#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
