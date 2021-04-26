@@ -1,5 +1,5 @@
-let m = 5;
-let n = 4;
+const m = 5;
+const n = 4;
 
 const create_table = (rows, cols) => {
 
