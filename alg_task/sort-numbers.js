@@ -10,7 +10,7 @@ const createNewSortedArray = (arr1, arr2) => {
     while(cIterator < arr1.length && dIterator < arr2.length) {
 
         ifCount = ifCount + 1;
-        if( arr1[cIterator] <= arr2[dIterator] ){
+        if( arr1[cIterator] <= arr2[dIterator] ) {
             resArr.push(arr1[cIterator]);
             cIterator = cIterator + 1;
 

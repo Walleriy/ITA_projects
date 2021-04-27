@@ -1,8 +1,7 @@
-const naturalNumber = 6;
+const naturalNumber = 10;
 
 const naturalToBinary = ( number ) => {
     let res = number.toString(2);
-    res = res.split('').reverse().join('');
     return res;
 }
 
