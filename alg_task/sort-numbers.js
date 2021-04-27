@@ -7,7 +7,7 @@ const createNewSortedArray = (arr1, arr2) => {
 
     let cIterator = 0;
     let dIterator = 0;
-    while(cIterator < arr1.length || dIterator < arr2.length) {
+    while(cIterator < arr1.length && dIterator < arr2.length) {
 
         ifCount = ifCount + 1;
         if( arr1[cIterator] <= arr2[dIterator] ){
@@ -38,8 +38,6 @@ const createNewSortedArray = (arr1, arr2) => {
         }
 
     }
-
-    return resArr;
 }
 
 let newArr = createNewSortedArray(cArr, dArr);
@@ -49,4 +47,4 @@ dArr: ${dArr} \n
 newArr: ${newArr} \n 
 ifCount = ${ifCount} < ${cArr.length} + ${dArr.length}: ${ifCount < (cArr.length + dArr.length)}`);
 
-module.exports = { createNewSortedArray };
+module.exports = { createNewSortedArray, ifCount };
